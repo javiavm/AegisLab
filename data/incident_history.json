@@ -1,0 +1,61 @@
+{
+  "_comment": "Sample incident history data for PoC testing",
+  "incidents": [
+    {
+      "incident_id": "INC-001",
+      "site": "Building A - 3rd floor",
+      "hazard_type": "HAZ-FALL-001",
+      "date": "2025-11-15",
+      "severity": "near_miss",
+      "description": "Unsecured scaffolding board nearly fell on worker below"
+    },
+    {
+      "incident_id": "INC-002",
+      "site": "Building A - 3rd floor",
+      "hazard_type": "HAZ-FALL-001",
+      "date": "2025-11-10",
+      "severity": "first_aid",
+      "description": "Worker struck by falling tool from scaffolding, minor bruise"
+    },
+    {
+      "incident_id": "INC-003",
+      "site": "Building A - 2nd floor",
+      "hazard_type": "HAZ-ELEC-001",
+      "date": "2025-11-20",
+      "severity": "near_miss",
+      "description": "Exposed wiring discovered during routine inspection"
+    },
+    {
+      "incident_id": "INC-004",
+      "site": "Building B",
+      "hazard_type": "HAZ-CHEM-001",
+      "date": "2025-10-25",
+      "severity": "first_aid",
+      "description": "Minor chemical splash, treated on site"
+    },
+    {
+      "incident_id": "INC-005",
+      "site": "Building A - 3rd floor",
+      "hazard_type": "HAZ-FALL-001",
+      "date": "2025-11-22",
+      "severity": "near_miss",
+      "description": "Loose scaffolding board identified during safety walk"
+    },
+    {
+      "incident_id": "INC-006",
+      "site": "Building C - Ground floor",
+      "hazard_type": "HAZ-FALL-002",
+      "date": "2025-11-18",
+      "severity": "first_aid",
+      "description": "Worker slipped on wet floor, minor sprain"
+    },
+    {
+      "incident_id": "INC-007",
+      "site": "Building A - 1st floor",
+      "hazard_type": "HAZ-MECH-001",
+      "date": "2025-11-05",
+      "severity": "near_miss",
+      "description": "Forklift nearly struck pedestrian in walkway"
+    }
+  ]
+}

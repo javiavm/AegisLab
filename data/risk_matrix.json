@@ -1,0 +1,59 @@
+{
+  "_comment": "Risk matrix configuration - defines RPN thresholds and priority mappings",
+  "thresholds": {
+    "critical_rpn": 16,
+    "high_rpn": 10,
+    "medium_rpn": 5,
+    "critical_severity": 5
+  },
+  "severity_levels": {
+    "1": {
+      "name": "Negligible",
+      "description": "Minor first aid, no lost time"
+    },
+    "2": {
+      "name": "Minor",
+      "description": "Medical treatment, minimal lost time"
+    },
+    "3": {
+      "name": "Moderate",
+      "description": "Lost time injury, temporary disability"
+    },
+    "4": {
+      "name": "Major",
+      "description": "Serious injury, permanent disability"
+    },
+    "5": {
+      "name": "Catastrophic",
+      "description": "Fatality or multiple serious injuries"
+    }
+  },
+  "likelihood_levels": {
+    "1": {
+      "name": "Rare",
+      "description": "Unlikely to occur, exceptional circumstances"
+    },
+    "2": {
+      "name": "Unlikely",
+      "description": "Could occur but not expected"
+    },
+    "3": {
+      "name": "Possible",
+      "description": "May occur during normal operations"
+    },
+    "4": {
+      "name": "Likely",
+      "description": "Will probably occur, has happened before"
+    },
+    "5": {
+      "name": "Almost Certain",
+      "description": "Expected to occur frequently"
+    }
+  },
+  "priority_sla_days": {
+    "CRITICAL": 0,
+    "HIGH": 1,
+    "MEDIUM": 7,
+    "LOW": 30
+  }
+}

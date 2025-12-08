@@ -1,0 +1,131 @@
+{
+  "_comment": "Safety standards reference data - OSHA and ISO 45001 mappings",
+  "HAZ-FALL-001": {
+    "osha": [
+      "OSHA 1926.451 - Scaffolding general requirements",
+      "OSHA 1926.451(g)(4) - Falling object protection",
+      "OSHA 1926.502 - Fall protection systems criteria",
+      "OSHA 1926.503 - Fall protection training requirements"
+    ],
+    "iso": [
+      "ISO 45001:2018 6.1.2 - Hazard identification and risk assessment",
+      "ISO 45001:2018 8.1.2 - Eliminating hazards and reducing OH&S risks"
+    ],
+    "description": "Standards for fall prevention and protection at height"
+  },
+  "HAZ-FALL-002": {
+    "osha": [
+      "OSHA 1926.25 - Housekeeping requirements",
+      "OSHA 1910.22 - Walking-working surfaces general requirements"
+    ],
+    "iso": [
+      "ISO 45001:2018 8.1.2 - Eliminating hazards and reducing OH&S risks"
+    ],
+    "description": "Standards for slip, trip and fall prevention on walking surfaces"
+  },
+  "HAZ-ELEC-001": {
+    "osha": [
+      "OSHA 1926.405 - Wiring methods, components, and equipment",
+      "OSHA 1926.416 - General electrical safety requirements",
+      "OSHA 1926.417 - Lockout and tagging of circuits"
+    ],
+    "iso": [
+      "ISO 45001:2018 8.1.2 - Eliminating hazards and reducing OH&S risks",
+      "ISO 45001:2018 8.2 - Emergency preparedness and response"
+    ],
+    "description": "Standards for electrical safety and shock prevention"
+  },
+  "HAZ-ELEC-002": {
+    "osha": [
+      "OSHA 1910.269 - Electric power generation, transmission, distribution",
+      "NFPA 70E - Standard for Electrical Safety in the Workplace"
+    ],
+    "iso": [
+      "ISO 45001:2018 8.2 - Emergency preparedness and response"
+    ],
+    "description": "Standards for arc flash hazard prevention"
+  },
+  "HAZ-CHEM-001": {
+    "osha": [
+      "OSHA 1926.55 - Gases, vapors, fumes, dusts, and mists",
+      "OSHA 1910.1200 - Hazard Communication Standard",
+      "OSHA 1926.59 - Hazard Communication (construction)"
+    ],
+    "iso": [
+      "ISO 45001:2018 8.1.2 - Eliminating hazards and reducing OH&S risks",
+      "ISO 45001:2018 7.4 - Communication"
+    ],
+    "description": "Standards for chemical exposure control and hazard communication"
+  },
+  "HAZ-CHEM-002": {
+    "osha": [
+      "OSHA 1910.134 - Respiratory Protection",
+      "OSHA 1926.103 - Respiratory protection (construction)"
+    ],
+    "iso": [
+      "ISO 45001:2018 8.1.2 - Eliminating hazards and reducing OH&S risks"
+    ],
+    "description": "Standards for respiratory protection from toxic substances"
+  },
+  "HAZ-MECH-001": {
+    "osha": [
+      "OSHA 1926.600 - Equipment - general",
+      "OSHA 1926.602 - Material handling equipment"
+    ],
+    "iso": [
+      "ISO 45001:2018 8.1.2 - Eliminating hazards and reducing OH&S risks"
+    ],
+    "description": "Standards for struck-by hazard prevention"
+  },
+  "HAZ-MECH-002": {
+    "osha": [
+      "OSHA 1910.212 - General requirements for all machines (guarding)",
+      "OSHA 1910.147 - Control of hazardous energy (lockout/tagout)"
+    ],
+    "iso": [
+      "ISO 45001:2018 8.1.2 - Eliminating hazards and reducing OH&S risks"
+    ],
+    "description": "Standards for caught-in/between hazard prevention"
+  },
+  "HAZ-ERGO-001": {
+    "osha": [
+      "OSHA General Duty Clause Section 5(a)(1)",
+      "NIOSH Lifting Equation - Recommended weight limits"
+    ],
+    "iso": [
+      "ISO 45001:2018 6.1.2 - Hazard identification",
+      "ISO 11228 - Ergonomics - Manual handling"
+    ],
+    "description": "Standards for ergonomic hazard control and manual handling"
+  },
+  "HAZ-FIRE-001": {
+    "osha": [
+      "OSHA 1926.352 - Fire prevention during welding and cutting",
+      "OSHA 1910.39 - Fire prevention plans"
+    ],
+    "iso": [
+      "ISO 45001:2018 8.2 - Emergency preparedness and response"
+    ],
+    "description": "Standards for fire prevention and control"
+  },
+  "HAZ-GEN-001": {
+    "osha": [
+      "OSHA General Duty Clause Section 5(a)(1)",
+      "OSHA 1926.20 - General safety and health provisions"
+    ],
+    "iso": [
+      "ISO 45001:2018 6.1 - Actions to address risks and opportunities",
+      "ISO 45001:2018 8.1 - Operational planning and control"
+    ],
+    "description": "General safety standards applicable to all workplace hazards"
+  },
+  "HAZ-GEN-002": {
+    "osha": [
+      "OSHA 1926.25 - Housekeeping"
+    ],
+    "iso": [
+      "ISO 45001:2018 8.1 - Operational planning and control"
+    ],
+    "description": "Standards for workplace housekeeping and organization"
+  }
+}
